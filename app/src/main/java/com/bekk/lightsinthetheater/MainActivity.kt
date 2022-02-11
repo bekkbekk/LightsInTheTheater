@@ -63,6 +63,7 @@ class MainActivity : AppCompatActivity() {
             etGreen.text = null
             etBlue.text = null
             rbChecked = false
+            etRed.requestFocus()
 
             val i = Intent(this, LightingActivity::class.java)
             i.putExtra("red", red)

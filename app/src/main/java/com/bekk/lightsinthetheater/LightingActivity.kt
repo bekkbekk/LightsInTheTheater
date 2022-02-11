@@ -117,7 +117,11 @@ class LightingActivity : AppCompatActivity() {
             }
 
             if (blue % 10 == 0){
-                colorList[0] = "on"
+                if (colorList.isEmpty()){
+                    colorList.add("on")
+                } else {
+                    colorList[0] = "on"
+                }
             }
         }
     }
