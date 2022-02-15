@@ -114,6 +114,10 @@ class LightingActivity : AppCompatActivity() {
                 for (i in 1..5){
                     colorList.add("off")
                 }
+            } else {
+                for (i in 1..10){
+                    colorList.add("off")
+                }
             }
 
             if (blue % 10 == 0){
